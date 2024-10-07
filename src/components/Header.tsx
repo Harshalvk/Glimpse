@@ -16,7 +16,7 @@ const Header = () => {
           <ArrowRight className="h-4 w-4 inline-flex justify-center items-center" />
         </div>
       </div>
-      <div className="px-6 py-5">
+      <div className="py-5">
         <div className="container">
           <div className="flex items-center justify-between">
             <Image src={Logo} alt="SaaS logo" height={40} width={40} />
