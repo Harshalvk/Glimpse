@@ -6,7 +6,7 @@ import Image from "next/image";
 
 const Header = () => {
   return (
-    <header className="sticky top-0">
+    <header className="sticky top-0 backdrop-blur-sm z-20">
       <div className="flex justify-center items-center text-sm bg-black text-white py-3 gap-3">
         <p className="text-white/60 hidden md:block">
           Streamline your and boost your productivity
