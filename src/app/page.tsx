@@ -4,6 +4,7 @@ import LogoTicker from "@/components/LogoTicker";
 import ProductShowcase from "@/components/ProductShowcase";
 import Pricing from "@/components/Pricing";
 import { Testimonials } from "@/components/Testimonials";
+import CallToAction from "@/components/CallToAction";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <ProductShowcase />
       <Pricing />
       <Testimonials/>
+      <CallToAction/>
     </>
   );
 }
